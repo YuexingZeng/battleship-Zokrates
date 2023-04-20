@@ -1,0 +1,29 @@
+{
+  "name": "battleship-zokrates",
+  "version": "1.0.0",
+  "description": "此项目旨在学习零知识技能。项目大致的设想为，在sui链上实现battleship游戏，使用Zokrates工具编写电路，并创建证明。",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuexingZeng/battleship-Zokrates.git"
+  },
+  "keywords": [
+    "zokrates"
+  ],
+  "author": "yuexingzeng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuexingZeng/battleship-Zokrates/issues"
+  },
+  "homepage": "https://github.com/YuexingZeng/battleship-Zokrates#readme",
+  "dependencies": {
+    "circomlibjs": "^0.1.7",
+    "zokrates-js": "^1.1.7"
+  }
+}
